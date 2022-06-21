@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Three"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Symptoms and Signs of Vitamin and Mineral Deficiency and Toxicity"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:textColor="@color/textColor"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="15dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="575dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ss1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="575dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ss2"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="575dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ss3"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="575dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ss4"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ss5"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

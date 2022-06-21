@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relupper"
+        android:layout_above="@id/relbottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/llone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/cc"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13 Essential Vitamins Your Body Needs to Stay Healthy"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/lltwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/bb"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vitamins and Minerals From A to Z"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/llthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/gg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Symptoms and Signs of Vitamin and Mineral Deficiency and Toxicity"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/llfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/fg2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chart of Vitamin and Mineral Recommendations"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="10dp"
+            app:cardMaxElevation="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/llfive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ee"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Benefits of Vitamin and Mineral Supplements"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/textColor"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+<!--
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="#ffffff"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/playstore" />
+-->
+
+    <RelativeLayout
+        android:id="@+id/relupper"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_name"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="150dp"
+            android:background="@color/colorPrimaryDark"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relbottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true">
+    <ImageView
+        android:id="@+id/btnShow"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@mipmap/menu"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="150dp"
+            android:background="@color/colorPrimaryDark"/>
+
+    </RelativeLayout>
+</RelativeLayout>
